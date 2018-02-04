@@ -30,6 +30,7 @@ async def on_ready():
 	print('https://discordapp.com/oauth2/authorize?client_id={}&scope=bot&permissions=8'.format(client.user.id))
 	print('')
 	print('Created by Jake#4526 and tinverse#0593 but mostly tinverse')
+	return await client.change_presence(game=discord.Game(name='with Plebs'))
 
 	
 
